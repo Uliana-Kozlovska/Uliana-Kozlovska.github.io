@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    
+    <title>Uliana Kozlovska</title>
+    <link rel="stylesheet" href="grid.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="gallery.css">
+    <LINK rel="stylesheet" href="template.css" type="text/css" />
+
+<SCRIPT type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></SCRIPT>
+
+<SCRIPT type="text/javascript" src="popup_img.js"></SCRIPT>
+ <link rel="stylesheet" type="text/css" href="main.css">
+    <script src="main.js"></script>
+     <link rel="stylesheet" type="text/css" href="graphic.css">
+      <link rel="stylesheet" href="contact.css">
+</head>
+
+<body>
+   
+        <div class="grid">
+           <div class="item"> </div>
+          <div class="item_menu">
+            <a class="menu-a" href="#about"> ABOUT</a>
+            <a class="menu-a" href="#gallery"> GALLERY</a>
+            <a class="menu-a" href="#contacts"> CONTACTS</a>
+        </div>
+        </div>
+        
+ 
+    
+    <div class="item-a ">
+        <span class="zagl">Uliana <span class="lt">K</span>ozlovska</span>
+
+    </div>
+    <div class="item-b">
+        <a class="item-btn" href="#gallery"><img class="btn" src="img/button1.png"> </a>
+        <a href="#graphic"><img class="btn" src="img/button2.png"> </a>
+    </div>
+    
+        <div class="grid">
+           <div class="item"><div>
+            <a href="index.html"><img src="img/logo.png" style="height:50px; margin-left: 10%; width: 60px;  margin-top: 15%;"></a> 
+        </div>
+ </div>
+            
+        </div>
+        
+    <div class="about" id="about">
+       
+    <div class="item">
+        <img class="im" src="img/i.m.jpg">
+    </div>
+    <div class="item">
+        <p class="text">Hello there, my names is Uliana and I study at the Department of Graphic Design at the Lviv Academy of Arts. I love to draw, take pictures on my telephone or camera and learn everyting about illustrating. I'm not a pro but I'm always doing my best to reach success! Yes, it's me.</p>
+    </div>
+    </div>
+    <div class="col-5 subtitle">
+        <h1>ABOUT</h1>
+    </div>
+       
+        <div class="grid" id="gallery">
+           <div class="item"><div>
+               <a href="index.html"><img src="img/logo.png" style="height:50px; margin-left: 7%; width: 60px; margin-top: 10%;"></a> 
+        </div>
+ </div>
+        </div>
+   
+       <div class="hover-image-8 item-grid">
+       <div  class="item vid ">
+        <img  class="image" src="img/1%20(2).jpg" style="width:335px;">
+       
+       <img class="image pn" src="img/2%20(2).jpg" style="width:335px;">
+       </div>
+       <div  class="item">
+        <img class="image " src="img/3%20(2).jpg" style="width:300px;">
+      
+        <img class="image" src="img/4(2).jpg" style="width:300px;">
+   
+        <img class="image" src="img/5%20(2).jpg" style="width:300px;">
+          </div>
+    </div>
+   <div class="col-5 subtitle">
+        <h1>GALLERY</h1>
+    </div>
+    	<script>
+	$(document).ready(FUNCTION() { // Ждём загрузки страницы
+
+$(".image").click(FUNCTION(){    // Событие клика на маленькое изображение
+
+VAR img = $(THIS);    // Получаем изображение, на которое кликнули
+
+VAR src = img.attr('src'); // Достаем из этого изображения путь до картинки
+
+$("body").append("<div class='popup'>"+ //Добавляем в тело документа разметку всплывающего окна
+
+"<div class='popup_bg'></div>"+ // Блок, который будет служить фоном затемненным
+
+"<img src='"+src+"' class='popup_img' />"+ // Само увеличенное фото
+
+"</div>");
+
+$(".popup").fadeIn(800); // Медленно выводим изображение
+
+$(".popup_bg").click(FUNCTION(){    // Событие клика на затемненный фон      
+
+$(".popup").fadeOut(800);    // Медленно убираем всплывающее окно
+
+setTimeout(FUNCTION() {    // Выставляем таймер
+
+$(".popup").remove(); // Удаляем разметку всплывающего окна
+
+}, 800);
+
+});
+
+});
+
+ 
+
+});
+	</script>
+    
+          <div class="grid" id="graphic">
+           <div class="item"><div>
+              <a href="index.html"><img src="img/logo.png" style="height:50px; margin-left: 7%; width: 60px; margin-top: 10%;"></a> 
+        </div>
+ </div>
+        </div>
+    <div class="grid_sl">
+        <div class="item_a">
+       <div class="item" style=" height: 350px; margin-left: 20% ">
+       <div class="sim-slider" id="first" style=" height: 360px;">
+     <ul class="sim-slider-list">
+        
+         <li class="sim-slider-element"><img src="img/5.jpg" alt="1"></li>
+         <li class="sim-slider-element"><img src="img/6.jpg" alt="2"></li>
+         <li class="sim-slider-element"><img src="img/7.jpg" alt="N"></li>
+         <li class="sim-slider-element"><img src="img/8.jpg" alt="N"></li>
+     </ul>
+     <div class="sim-slider-arrow-left"></div>
+     <div class="sim-slider-arrow-right"></div>
+     <div class="sim-slider-dots"></div>
+ </div>
+     </div> 
+        <div class="item"  style=" height: 150px; margin-left: 20%;">
+        <p class="tex">Design and layout of the book <br/> "Dandelion wine"  <span class="lt">2019</span></p>
+    </div>
+        <div class="item">
+        <div class=" subtitle">
+        <h1>GALLERY</h1>
+    </div>
+       </div>
+        </div> 
+        
+        
+ <div class="item_a">
+    <div class="item">
+        <p class="tex" style="text-align: right; padding: 0 15%;">Design and layout of the book <br/> "BREAKFAST" <span class="lt">2020</span></p>
+    </div>
+   
+   
+      <div class="item">
+       <div class="sim-slider" id="second" style=" height: 360px; margin-left: 20%">
+     <ul class="sim-slider-list">
+         
+         <li class="sim-slider-element"><img src="img/1.jpg" alt="1"></li>
+         <li class="sim-slider-element"><img src="img/2.jpg" alt="2"></li>
+         <li class="sim-slider-element"><img src="img/3.jpg" alt="N"></li>
+         <li class="sim-slider-element"><img src="img/4.jpg" alt="N"></li>
+     </ul>
+     <div class="sim-slider-arrow-left"></div>
+     <div class="sim-slider-arrow-right"></div>
+     <div class="sim-slider-dots"></div>
+ </div>
+       </div>
+       
+       
+  
+   </div>
+    </div>
+    
+   <!-- подключение слайдера -->
+<script src="main.js"></script>
+<!-- вызов слайдера -->
+<script>new Sim("first"); new Sim("second");</script>
+
+       <div class="grid">
+           <div class="item"><div>
+               <a href="index.html"><img src="img/logo.png" style="height:50px; margin-left: 7%; width: 60px; margin-top: 10%;"></a> 
+        </div>
+ </div>
+    
+        </div>
+   
+<div class="contact" id="contacts">
+                 <div class="item"></div>
+
+       <div class="item">
+       <div class="subt">
+           
+            <div class="item_t">
+                <a href="https://www.instagram.com/ulyanakozlovska/"><img class="btn_2" src="img/instagram.png"> </a>
+                 <p style="margin-top: 11%;">MORE PHOTOS</p>
+            </div>
+            
+
+          
+            
+            <div  class="item_r">
+               <p style="margin-top: 11%; text-align: right;">COMMUNICATION</p>
+                <a href="ukozlovska7@gmail.com"><img class="btn_2" src="img/gmail..png"></a>
+            </div>
+            
+        </div>
+  <div class="subtitle">
+        <h1>CONTACTS</h1>
+    </div>
+    </div>
+    <div class="item">
+     <div>
+            <img class="style_prevu_kit" src="img/baby.png" style="width:600px">
+        </div>
+    </div>
+    </div>
+</body>
+</html>
