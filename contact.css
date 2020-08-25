@@ -1,3 +1,11 @@
+@font-face {
+   font-family: RobotoSlab-VariableFont_wght;
+  src: url("C:\Users\Admin\Desktop\sait\fonts\RobotoSlab-VariableFont_wght.ttf");
+}
+@font-face {
+   font-family: Comfortaa-VariableFont_wght;
+  src: url("C:\Users\Admin\Desktop\sait\fonts\Comfortaa-VariableFont_wght.ttf");
+}
 
 .grid {
     display: grid;
