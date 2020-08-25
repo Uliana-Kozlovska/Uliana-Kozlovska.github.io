@@ -1,7 +1,4 @@
-@font-face {
-   font-family: RobotoSlab-VariableFont_wght;
-  src: url("C:\Users\Admin\Desktop\sait\fonts\RobotoSlab-VariableFont_wght.ttf");
-}
+
 @font-face {
    font-family: Comfortaa-VariableFont_wght;
   src: url("C:\Users\Admin\Desktop\sait\fonts\Comfortaa-VariableFont_wght.ttf");
@@ -41,14 +38,6 @@
 }
 
 
-.menu-a {
-    font-family: RobotoSlab-VariableFont_wght;
-    padding-right: 40px;
-    text-decoration: none;
-    color: #3f3f3f;
-    font-weight: 900;
-    font-size: 25px;
-}
 
 
 
