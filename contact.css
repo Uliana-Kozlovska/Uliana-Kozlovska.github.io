@@ -1,7 +1,7 @@
 
 @font-face {
    font-family: "Comfortaa";
-  src: url("C:\Users\Admin\Desktop\sait\fonts\Comfortaa.ttf");
+  src: url("C:\Users\Admin\Desktop\sait\fonts\Comfortaa.ttf")format ("truetype");
 }
 
 .grid {
@@ -74,12 +74,12 @@
 .subt {
     display: grid;
     grid-template-rows: 1fr 1fr;
-    font-family: Comfortaa;
+    font-family: "Comfortaa";
     color: #111;
     font-size: 25px;
 }
 .subtitle {
-    font-family: Comfortaa;
+    font-family:"Comfortaa";
     color: hotpink;
     font-size: 25px;
     margin-top: 5%;
