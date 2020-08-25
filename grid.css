@@ -1,10 +1,10 @@
 @font-face {
    font-family: "RobotoSlab";
-  src: url("C:\Users\Admin\Desktop\sait\fonts\RobotoSlab.ttf")format ("truetype");
+  src: url(\fonts\RobotoSlab.ttf")format ("truetype");
 }
 @font-face {
    font-family: "Comfortaa";
-  src: url(C:\Users\Admin\Desktop\sait\fonts\Comfortaa.ttf)format ("truetype");
+  src: url(\fonts\Comfortaa.ttf)format ("truetype");
 }
 
 .grid{
