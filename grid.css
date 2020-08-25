@@ -1,10 +1,10 @@
 @font-face {
-   font-family: RobotoSlab-VariableFont_wght;
-  src: url("C:\Users\Admin\Desktop\sait\fonts\RobotoSlab-VariableFont_wght.ttf");
+   font-family: RobotoSlab;
+  src: url("C:\Users\Admin\Desktop\sait\fonts\RobotoSlab.ttf");
 }
 @font-face {
-   font-family: Comfortaa-VariableFont_wght;
-  src: url("C:\Users\Admin\Desktop\sait\fonts\Comfortaa-VariableFont_wght.ttf");
+   font-family: Comfortaa;
+  src: url(C:\Users\Admin\Desktop\sait\fonts\Comfortaa.ttf);
 }
 
 .grid{
@@ -45,7 +45,7 @@
     margin-left: 50%;
 }
 .menu-a {
-    font-family:  RobotoSlab-VariableFont_wght;
+    font-family:  RobotoSlab;
     padding-right: 40px;
     text-decoration: none;
     color: #3f3f3f;
@@ -55,7 +55,7 @@
 }
 
 .zagl {
-    font-family: Comfortaa-VariableFont_wght;
+    font-family: Comfortaa;
     font-size: 80px;
     font-weight: 900;
     letter-spacing: -5px;
@@ -72,7 +72,7 @@
 
 
 .text {
-    font-family: Comfortaa-VariableFont_wght;
+    font-family: Comfortaa;
     font-size: 20px;
     font-weight: 800;
 }
