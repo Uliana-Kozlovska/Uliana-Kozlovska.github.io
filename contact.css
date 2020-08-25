@@ -42,7 +42,7 @@
 
 
 .menu-a {
-    font-family: Roboto;
+    font-family: RobotoSlab-VariableFont_wght;
     padding-right: 40px;
     text-decoration: none;
     color: #3f3f3f;
@@ -85,12 +85,12 @@
 .subt {
     display: grid;
     grid-template-rows: 1fr 1fr;
-    font-family: Comfortaa;
+    font-family: Comfortaa-VariableFont_wght;
     color: #111;
     font-size: 25px;
 }
 .subtitle {
-    font-family: Comfortaa;
+    font-family: Comfortaa-VariableFont_wght;
     color: hotpink;
     font-size: 25px;
     margin-top: 5%;
@@ -99,7 +99,7 @@
 
 
 .text {
-    font-family: Comfortaa;
+    font-family: Comfortaa-VariableFont_wght;
     font-size: 20px;
     font-weight: 800;
 }
