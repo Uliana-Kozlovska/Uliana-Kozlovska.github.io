@@ -60,7 +60,7 @@ body{
 
 
 .subtitle {
-    font-family: Comfortaa;
+    font-family: "Comfortaa";
     margin: 80px;
     color: hotpink;
      font-size: 22px;
@@ -82,7 +82,7 @@ body{
 }
 
 .text {
-    font-family:Comfortaa;
+    font-family:"Comfortaa";
     font-size: 20px;
     font-weight: 800;
     padding-right: 20%;
