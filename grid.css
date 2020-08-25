@@ -30,6 +30,10 @@
 .item-d {
   grid-area: footer;
 }
+@font-face {
+    src: url(fonts/Roboto.ttf);
+    font-family:Roboto;
+}
 
 .item_menu{
     position: fixed;
