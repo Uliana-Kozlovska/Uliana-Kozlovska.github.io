@@ -1,7 +1,7 @@
 
 @font-face {
-   font-family: Comfortaa-VariableFont_wght;
-  src: url("C:\Users\Admin\Desktop\sait\fonts\Comfortaa-VariableFont_wght.ttf");
+   font-family: Comfortaa;
+  src: url(C:\Users\Admin\Desktop\sait\fonts\Comfortaa.ttf);
 }
 
 body{
@@ -60,7 +60,7 @@ body{
 
 
 .subtitle {
-    font-family: Comfortaa-VariableFont_wght;
+    font-family: Comfortaa;
     margin: 80px;
     color: hotpink;
      font-size: 22px;
@@ -82,7 +82,7 @@ body{
 }
 
 .text {
-    font-family: font-family: Comfortaa-VariableFont_wght;
+    font-family:Comfortaa;
     font-size: 20px;
     font-weight: 800;
     padding-right: 20%;
