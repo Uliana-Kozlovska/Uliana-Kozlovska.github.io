@@ -58,7 +58,7 @@ body{
 
 
 .menu-a {
-    font-family: Roboto;
+    font-family: RobotoSlab-VariableFont_wght;
     padding-right: 40px;
     text-decoration: none;
     color: #3f3f3f;
@@ -72,7 +72,7 @@ body{
 
 
 .subtitle {
-    font-family: Comfortaa;
+    font-family: Comfortaa-VariableFont_wght;
     margin: 80px;
     color: hotpink;
      font-size: 22px;
@@ -94,7 +94,7 @@ body{
 }
 
 .text {
-    font-family: Comfortaa;
+    font-family: font-family: Comfortaa-VariableFont_wght;
     font-size: 20px;
     font-weight: 800;
     padding-right: 20%;
