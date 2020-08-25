@@ -1,7 +1,7 @@
 
 @font-face {
-   font-family: Comfortaa-VariableFont_wght;
-  src: url("C:\Users\Admin\Desktop\sait\fonts\Comfortaa-VariableFont_wght.ttf");
+   font-family: Comfortaa;
+  src: url(C:\Users\Admin\Desktop\sait\fonts\Comfortaa.ttf);
 }
 
 .grid {
@@ -74,12 +74,12 @@
 .subt {
     display: grid;
     grid-template-rows: 1fr 1fr;
-    font-family: Comfortaa-VariableFont_wght;
+    font-family: Comfortaa;
     color: #111;
     font-size: 25px;
 }
 .subtitle {
-    font-family: Comfortaa-VariableFont_wght;
+    font-family: Comfortaa;
     color: hotpink;
     font-size: 25px;
     margin-top: 5%;
@@ -88,7 +88,7 @@
 
 
 .text {
-    font-family: Comfortaa-VariableFont_wght;
+    font-family: Comfortaa;
     font-size: 20px;
     font-weight: 800;
 }
