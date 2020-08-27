@@ -59,12 +59,13 @@ body{
 }
 
 
-.subtitle {
+.subtitle_a {
     font-family: Comfortaa;
     margin: 80px;
     color: hotpink;
      font-size: 22px;
     margin-left: 10%;
+    margin-top: 5%;
 }
 
 
