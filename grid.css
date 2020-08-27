@@ -65,14 +65,8 @@
     color: hotpink;
 }
 
-.btn {
-    width: 180px;
-}
-
-
-
 .text {
-    font-family: "Comfortaa";
+    font-family:"Comfortaa";
     font-size: 20px;
     font-weight: 800;
 }
@@ -82,7 +76,7 @@
     display: grid;
 }
 .btn {
-  
+    width: 180px;
      -webkit-transition: all 200ms ease-in;
     -webkit-transform: scale(1); 
     -ms-transition: all 200ms ease-in;
