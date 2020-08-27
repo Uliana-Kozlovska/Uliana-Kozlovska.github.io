@@ -60,12 +60,14 @@
     color: hotpink;
 }
 
-.subtitle {
+.subtitle_g {
     font-family:Comfortaa;
     margin: 80px;
     color: hotpink;
     font-size: 22px;
     margin-left: 10%;
+     margin-top: -23%;
+	
 }
 
 
