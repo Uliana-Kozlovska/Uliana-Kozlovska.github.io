@@ -1,8 +1,13 @@
-
+  
+@font-face {
+   font-family: "Roboto-Black";
+  src: url("\fonts\Roboto-Black.ttf"")format ("truetype");
+}
 @font-face {
    font-family: "Comfortaa";
-  src: url("sait\fonts\Comfortaa.ttf")format ("truetype");
+  src: url("\fonts\Comfortaa.ttf")format ("truetype");
 }
+
 
 .grid {
     display: grid;
