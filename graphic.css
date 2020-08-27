@@ -49,7 +49,7 @@
 
 
 .subtitle {
-    font-family:"Comfortaa";
+    font-family:Comfortaa;
     margin: 80px;
     color: hotpink;
     font-size: 25px;
@@ -131,7 +131,7 @@
 }
 
 .text {
-    font-family: "Comfortaa";
+    font-family: Comfortaa;
     font-size: 20px;
     font-weight: 800;
 }
@@ -161,7 +161,7 @@
 .tex{
     font-size: 25px;
     color: #111;
-    font-family: "Roboto-Black";
+    font-family: Roboto-Black;
     font-weight: 600;
 }
 .grid_sl{
