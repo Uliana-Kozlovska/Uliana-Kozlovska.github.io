@@ -1,7 +1,7 @@
   
 @font-face {
    font-family: "Roboto-Black";
-  src: url("\fonts\Roboto-Black.ttf"")format ("truetype");
+  src: url("\fonts\Roboto-Black.ttf")format ("truetype");
 }
 @font-face {
    font-family: "Comfortaa";
@@ -161,7 +161,7 @@
 .tex{
     font-size: 25px;
     color: #111;
-    font-family: Roboto;
+    font-family: "Roboto-Black";
     font-weight: 600;
 }
 .grid_sl{
