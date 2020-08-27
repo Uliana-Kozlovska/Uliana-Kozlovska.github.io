@@ -42,7 +42,7 @@
 
 
 .menu-a {
-    font-family:"Roboto-Black";
+    font-family:Roboto-Black;
     padding-right: 40px;
     text-decoration: none;
     color: #3f3f3f;
@@ -90,7 +90,7 @@
     font-size: 25px;
 }
 .subtitle {
-    font-family: "Comfortaa";
+    font-family:Comfortaa;
     color: hotpink;
     font-size: 25px;
     margin-top: 20%;
@@ -99,7 +99,7 @@
 
 
 .text {
-    font-family:"Comfortaa";
+    font-family:Comfortaa;
     font-size: 20px;
     font-weight: 800;
 }
