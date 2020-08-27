@@ -1,10 +1,10 @@
 @font-face {
-   font-family: "RobotoSlab";
-  src: url(\fonts\RobotoSlab.ttf")format ("truetype");
+   font-family: "Roboto-Black";
+  src: url("\fonts\Roboto-Black.ttf"")format ("truetype");
 }
 @font-face {
    font-family: "Comfortaa";
-  src: url(\fonts\Comfortaa.ttf)format ("truetype");
+  src: url("\fonts\Comfortaa.ttf")format ("truetype");
 }
 
 .grid{
@@ -45,7 +45,7 @@
     margin-left: 50%;
 }
 .menu-a {
-    font-family: "RobotoSlab";
+    font-family: "Roboto-Black";
     padding-right: 40px;
     text-decoration: none;
     color: #3f3f3f;
