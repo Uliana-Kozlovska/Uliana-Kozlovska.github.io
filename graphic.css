@@ -48,12 +48,13 @@
 
 
 
-.subtitle {
+.subtitle_ds {
     font-family:Comfortaa;
     margin: 80px;
     color: hotpink;
     font-size: 23px;
     padding-left:10%;
+    margin-top: -5%;
 }
 
 .slide {
