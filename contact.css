@@ -7,8 +7,6 @@
    font-family: "Comfortaa";
   src: url("\fonts\Comfortaa.ttf")format ("truetype");
 }
-
-
 .grid {
     display: grid;
 	grid-template-columns: 1fr 40%;
@@ -43,6 +41,14 @@
 }
 
 
+.menu-a {
+    font-family:"Roboto-Black";
+    padding-right: 40px;
+    text-decoration: none;
+    color: #3f3f3f;
+    font-weight: 900;
+    font-size: 25px;
+}
 
 
 
@@ -79,21 +85,21 @@
 .subt {
     display: grid;
     grid-template-rows: 1fr 1fr;
-    font-family: "Comfortaa";
+    font-family:"Comfortaa";
     color: #111;
     font-size: 25px;
 }
 .subtitle {
-    font-family:"Comfortaa";
+    font-family: "Comfortaa";
     color: hotpink;
     font-size: 25px;
-    margin-top: 5%;
+    margin-top: 20%;
 
 }
 
 
 .text {
-    font-family: Comfortaa;
+    font-family:"Comfortaa";
     font-size: 20px;
     font-weight: 800;
 }
