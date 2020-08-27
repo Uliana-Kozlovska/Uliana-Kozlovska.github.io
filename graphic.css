@@ -1,11 +1,13 @@
+  
 @font-face {
-   font-family: "RobotoSlab";
-  src: url("\fonts\RobotoSlab.ttf")format ("truetype");
+   font-family: "Roboto-Black";
+  src: url("\fonts\Roboto-Black.ttf"")format ("truetype");
 }
 @font-face {
    font-family: "Comfortaa";
-  src: url("\fonts\Comfortaa-VariableFont_wght.ttf") format ("truetype");
+  src: url("\fonts\Comfortaa.ttf")format ("truetype");
 }
+
 .grid {
     display: grid;
 	grid-template-columns: 1fr 40%;
